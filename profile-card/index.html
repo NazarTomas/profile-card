@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main class="wrap">
+        <article class="card" role="region" aria-labelledby="name">
+            <img src="https://picsum.photos/240" alt="Avatar" class="card__avatar" />
+            <h1 class="card__name" id="name">Your name</h1>
+            <p class="card__role">Junior front-end developer</p>
+            <p class="card__bio">Short bio: What you are interested in and what you want to learn</p>
+
+            <nav class="card__links" aria-label="Contacts">
+                <a href="#" class="btn">GitHub</a>
+                <a href="#" class="btn">LinkedIn</a>
+                <a href="#" class="btn">Email</a>
+            </nav>
+
+            <button class="theme-toggle" id="themeToggle" aria-pressed="false">Dark theme</button>
+        </article>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
